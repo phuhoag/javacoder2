@@ -40,8 +40,8 @@ public class KiemKhach extends NhanVat {
 
 	@Override
 	public void sucmanh() {
-		double energy = this.getNangluong()*2;
-		System.out.println("suc manh cua ky binh la " +energy);
+		double energy = this.getNangluong()*1;
+		System.out.println("suc manh cua kiem khach  la : " +energy);
 	
 	}
 	
