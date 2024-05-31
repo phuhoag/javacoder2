@@ -1,15 +1,14 @@
 package Bai5;
 
 
-public class QuanLyDongVt {
+public class Meo {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	public class Dog extends Animal {
 
-		Animal obj1 = new Animal();
-		obj1.speak();
-		Dog obj2 = new Dog();
-		obj2.speak();
+	
+	public void speak() {
+		System.out.println("Meo");
 	}
+}
 
 }
